@@ -1,0 +1,63 @@
+.painel_back {
+    background: linear-gradient(to bottom, #eeeeee 0%, #cccccc 100%);
+    box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
+    border-radius: 30px;
+    display: grid;
+    gap: 30px;
+    display: flex;
+    /* grid-template-columns: repeat(3, 1fr); */
+    padding: 15px;
+}
+
+.painel_back_sons {
+    background: linear-gradient(to bottom, #eeeeee 0%, #cccccc 100%);
+    box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
+    border-radius: 30px;
+    display: grid;
+    gap: 15px;
+    display: flex;
+    /* grid-template-columns: repeat(3, 1fr); */
+    padding: 15px;
+    margin-top: 30px;
+    max-width: 400px;
+}
+
+.btn_painel {
+    background-color: var(--branca);
+    border-radius: 30px;
+    box-shadow: 3px 3px 0 var(--cinza);
+    color: var(--vermelha);
+    cursor: pointer;
+    height: 80px;
+    /* font-size: 1.75em; */
+    font-weight: bold;
+    /* line-height: 120px; */
+    text-align: center;
+    width: 180px;
+}
+
+.painel_back_telefone {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    background-color: #e0a183;
+    border-radius: 30px;
+    /* padding: 25px; */
+}
+
+.btn_painel_tel {
+    margin: 15px;
+    background-color: #A0522D; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  
+}
+.btn_painel_tel:hover{
+    background-color: #D2691E;
+ }
